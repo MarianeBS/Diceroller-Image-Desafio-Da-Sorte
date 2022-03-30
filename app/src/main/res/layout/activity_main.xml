@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text_size="30sp"
+        android:text="@string/text"
+        android:id="@+id/resultText">
+    </TextView>-->
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/dice_image"
+        android:src="@drawable/empty_dice"
+        ></ImageView>
+
+    <Button
+        android:id="@+id/roll_button"
+        android:text="@string/roll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:digits="1,2,3,4,5,6"
+        android:labelFor="@+id/edtNumber"
+        android:autofillHints="name"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
